@@ -32,9 +32,9 @@ go run main.go
 ```
 
 ### Доступ:
-- **Главная:** http://104.248.70.69
-- **SAA Capital Models:** http://104.248.70.69/saa-capital-models
-- **API Health:** http://104.248.70.69/api/health
+- **Главная:** http://research.saa-alliance.com
+- **SAA Capital Models:** http://research.saa-alliance.com/saa-capital-models
+- **API Health:** http://research.saa-alliance.com/api/health
 
 ## 📊 API Endpoints
 
@@ -66,7 +66,7 @@ go run main.go &
 
 ## 📞 Поддержка
 
-- Проверка статуса: `curl http://104.248.70.69/api/health`
+- Проверка статуса: `curl http://research.saa-alliance.com/api/health`
 - Логи: `journalctl -f` или консоль сервера
 - Перезапуск: `pkill -f main.go && go run main.go &`
 
